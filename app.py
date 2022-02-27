@@ -73,7 +73,7 @@ def predict(stock_name, isIssue = False):
     if math.isnan(predicted_price):
       predict(stock_name, True)
       return
-  printGraph(stock_name, future_prediction)
+ # printGraph(stock_name, future_prediction)
   return future_prediction
 
 @app.route('/showChart')
