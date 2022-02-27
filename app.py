@@ -39,7 +39,7 @@ def printGraph(stock_name, pred):
  # plt.plot(dff['Close'],'g--',label='Predicted Close',marker = '+')
   plt.plot(dff['Close'],'green',label='future Predicion',marker = 'o')
   plt.legend()
-  plt.savefig(fname='/static/image.jpg',bbox_inches='tight')
+  plt.savefig(fname='static/image.jpg',bbox_inches='tight')
   #print(df)
   
 def predict(stock_name, isIssue = False):
